@@ -2,4 +2,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync . s3://trollhq.com
+      - aws s3 sync . s3://trollhq.com --acl public-read
